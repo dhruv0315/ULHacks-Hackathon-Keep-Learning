@@ -1,0 +1,51 @@
+.new-post__controls {
+    display: block;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: left;
+  }
+
+  
+  .new-post__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: white;
+  }
+  
+  .new-post__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 15rem;
+    max-width: 100%;
+    margin-bottom: 25px;
+    overflow: scroll;
+  }
+  
+  .new-post__actions {
+    text-align: right;
+  }
+
+  .new-post__control__description textarea[name="message"] {
+    width:  15rem; 
+    height: 5rem;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+
+  }
+
+  .new-post__control__description label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: white;
+  }
+

@@ -1,0 +1,38 @@
+.new-post {
+    background-color: #ddc098;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-post button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-post button:hover,
+  .new-post button:active {
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(54, 54, 54);
+  }
+  
+  .new-post button.alternative {
+    color: rgb(54, 54, 54);
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-post button.alternative:hover,
+  .new-post button.alternative:active {
+    background-color: #000000;
+  }

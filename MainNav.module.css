@@ -1,0 +1,303 @@
+
+.header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    right: 300px;
+  }
+
+  .logo span{
+    color: #745d49;
+    font-weight: bold;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    left: 150px;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+    font-size: 27px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    text-decoration: underline;
+    transition: 2s;
+  }
+
+  @media only screen and (max-device-width: 2560px) {
+    .header ul {
+      position: relative;
+      margin-left: 600px;
+    }
+    .logo {
+      position: relative;
+      right: 60rem;
+    }
+  }
+  @media only screen and (max-device-width: 2050px) {
+    .header ul {
+      position: relative;
+      margin-left: 430px;
+    }
+    .logo {
+      position: relative;
+      right: 50rem;
+    }
+  }
+  @media only screen and (max-device-width: 1820px) {
+    .header ul {
+      position: relative;
+      margin-left: 230px;
+    }
+    .logo {
+      position: relative;
+      right: 35rem;
+    }
+  }
+  @media only screen and (max-device-width: 1600px) {
+    .header ul {
+      position: relative;
+      margin-left: 100px;
+    }
+    .logo {
+      position: relative;
+      right: 27rem;
+    }
+  }
+ @media only screen and (max-device-width: 1450px) {
+    .logo {
+      font-size: 2rem;
+      position: relative;
+      right: 260px;
+    }
+    .header ul {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 110px;
+    }
+    
+    .header li {
+      margin-left: 2.7rem;
+      font-size: 27px;
+    }
+    
+    .header a {
+      font-size: 18px;
+    }
+    
+  } 
+
+  @media only screen and (max-device-width: 1160px) {
+    .logo {
+      position: relative;
+      right: 190px;
+    }
+    .header ul {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 60px;
+    }
+    
+    .header li {
+      margin-left: 2.7rem;
+      font-size: 22px;
+    }
+    
+    .header a {
+      font-size: 16px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 990px) {
+    .logo {
+      position: relative;
+      right: 140px;
+    }
+    .header ul {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 30px;
+    }
+    
+    .header li {
+      margin-left: 2.5rem;
+      font-size: 20px;
+    }
+    
+    .header a {
+      font-size: 14px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 880px) {
+    .logo {
+      position: relative;
+      right: 90px;
+    }
+    .header ul {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 10px;
+    }
+    
+    .header li {
+      margin-left: 2.5rem;
+      font-size: 18px;
+    }
+    
+    .header a {
+      font-size: 12px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 800px) {
+    .logo {
+      position: relative;
+      right: 140px;
+    }
+    .header ul {
+      position: relative;
+      left: 80px;
+    }
+    
+    .header li {
+      margin-left: 2rem;
+      font-size: 15px;
+
+    }
+    
+    .header a {
+      font-size: 10px;
+    }
+    
+  }
+
+  @media only screen and (max-device-width: 690px) {
+    .logo {
+      position: relative;
+      right: 80px;
+    }
+    .header ul {
+      position: relative;
+      left: 40px;
+    }
+    
+    .header li {
+      margin-left: 1.7rem;
+      font-size: 14px;
+
+    }
+    
+    .header a {
+      font-size: 10px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 630px) {  
+    .logo {
+      display: none;
+    }
+    .header ul {
+      position: relative;
+      left: 40px;
+    }
+    
+    .header li {
+      margin: 1.2rem;
+    }
+    
+    .header a {
+      font-size: 10px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 530px) {  
+    .logo {
+      display: none;
+    }
+    .header ul {
+      position: relative;
+      left: 40px;
+    }
+    
+    .header li {
+      margin: 1rem;
+    }
+    
+    .header a {
+      font-size: 9px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 530px) {  
+    .logo {
+      display: none;
+    }
+    
+    .header li {
+      margin: 0.8rem;
+    }
+    
+    .header a {
+      font-size: 8px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 400px) {  
+    .logo {
+      display: none;
+    }
+    
+    .header li {
+      margin: 0.5rem;
+    }
+    
+    .header a {
+      font-size: 8px;
+    }
+    
+  }
+  @media only screen and (max-device-width: 370px) {  
+    .logo {
+      display: none;
+    }
+    
+    .header li {
+      margin: 0.3rem;
+    }
+    
+    .header a {
+      font-size: 8px;
+    }
+    
+  }

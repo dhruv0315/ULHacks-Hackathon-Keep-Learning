@@ -1,0 +1,13 @@
+.bar {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 400px;
+    height: 20px;
+    color:  #ddc098;
+    border: 4px solid #ddc098;
+    position: relative;
+    right: 50px;
+}
+

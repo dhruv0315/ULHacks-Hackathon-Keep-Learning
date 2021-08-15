@@ -1,0 +1,38 @@
+.new-experience {
+    background-color: #ddc098;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-experience button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-experience button:hover,
+  .new-experience button:active {
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(54, 54, 54);
+  }
+  
+  .new-experience button.alternative {
+    color: rgb(54, 54, 54);
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-experience button.alternative:hover,
+  .new-experience button.alternative:active {
+    background-color: #000000;
+  }
